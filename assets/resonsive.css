@@ -69,7 +69,8 @@
 @media only screen and (max-width: 768px) {
   .contact-us-contents {
     grid-template-columns: 1fr;
-    margin-top: 40px;
+    padding-top: 40px;
+    width: 100%;
   }
   .pricing-wrapper {
     display: grid;
@@ -79,14 +80,14 @@
   }
   section.pricing {
     padding: 70px 0 50px 0;
-}
-.priching-header h3 {
-  font-size: 30px;
-}
-.pricing-value h3 {
-  padding-top: 15px;
-  font-size: 30px;
-}
+  }
+  .priching-header h3 {
+    font-size: 30px;
+  }
+  .pricing-value h3 {
+    padding-top: 15px;
+    font-size: 30px;
+  }
   .contact-header {
     width: 100%;
   }
@@ -100,7 +101,7 @@
     font-size: 30px;
     text-align: center;
   }
-  .hero-heading-title{
+  .hero-heading-title {
     margin-bottom: 15px;
     font-size: 30px !important;
   }
@@ -108,8 +109,8 @@
     position: absolute;
     bottom: -23px;
     right: 16px;
-}
-  .hero-shap img{
-  width: 35px;
-}
+  }
+  .hero-shap img {
+    width: 35px;
+  }
 }

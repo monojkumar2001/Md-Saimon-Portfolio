@@ -61,8 +61,10 @@
 
 .contact-us-contents {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 50px;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 50px;
+  width: 70%;
+  margin: auto;
   gap: 20px;
 }
 
@@ -237,21 +239,21 @@ ul.pricing-item-list li p {
 .swiper.myShort.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
   padding-bottom: 50px;
 }
-.swiper .myShort .swiper-pagination-bullet{
+.swiper .myShort .swiper-pagination-bullet {
   width: 15px;
   height: 15px;
 }
-.swiper.myShort .swiper-pagination-bullet{
+.swiper.myShort .swiper-pagination-bullet {
   width: 15px !important;
   height: 15px;
   background: #f2295b !important;
 }
-.swiper.myShort .swiper-pagination-bullet.swiper-pagination-bullet-active{
+.swiper.myShort .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #fd0988 !important;
 }
-.hero-img-wrapp{
+.hero-img-wrapp {
   justify-content: end;
 }
-.pricing-top{
+.pricing-top {
   padding: 0 0 50px 0;
 }
