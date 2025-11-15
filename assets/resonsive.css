@@ -72,6 +72,12 @@
     padding-top: 40px;
     width: 100%;
   }
+  .elementor-widget-containers {
+    padding: 10px 0;
+  }
+  .elementor-widget-containers img {
+    width: 120px !important;
+  }
   .pricing-wrapper {
     display: grid;
     grid-template-columns: 1fr;
