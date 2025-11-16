@@ -24,14 +24,14 @@ var swiper = new Swiper(".myThumbnails", {
 var swiper = new Swiper(".myShort", {
   slidesPerView: 3,
   spaceBetween: 30,
-  // autoplay: {
-  //   delay: 3500,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
   pagination: {
-    el: ".swiper-pagination", 
-    clickable: true,         
-},
+    el: ".swiper-pagination",
+    clickable: true,
+  },
   // loop: true,
   breakpoints: {
     320: {
@@ -61,7 +61,7 @@ var swiper = new Swiper(".myShort", {
 
 function toggleMenu() {
   var menu = document.getElementById("menu");
-  
+
   // Add or remove the "active" class
   if (menu.classList.contains("active")) {
     menu.classList.remove("active"); // Remove the "active" class
