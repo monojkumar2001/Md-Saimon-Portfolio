@@ -69,6 +69,28 @@ function toggleMenu() {
     menu.classList.add("active"); // Add the "active" class
   }
 }
+document.addEventListener("DOMContentLoaded", function () {
+  const counters = document.querySelectorAll(".elementor-counter-number");
+
+  counters.forEach((counter) => {
+    let start = parseInt(counter.getAttribute("data-from-value")) || 0;
+    let end = parseInt(counter.getAttribute("data-to-value")) || 0;
+    let duration = parseInt(counter.getAttribute("data-duration")) || 1000;
+
+    let range = end - start;
+    let stepTime = duration / range;
+
+    let current = start;
+    let timer = setInterval(() => {
+      current++;
+      counter.innerText = current;
+
+      if (current >= end) {
+        clearInterval(timer);
+      }
+    }, stepTime);
+  });
+});
 
 // function toggleMenu() {
 //   var menu = document.getElementById("menu");
